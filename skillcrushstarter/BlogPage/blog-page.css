@@ -1,0 +1,202 @@
+/* BLOG STYLES */
+.post-entry {
+	border-bottom: 1px solid #bfbfbf;
+	padding-bottom: 1.875em;
+	margin-bottom: 1.875em;
+}
+.entry-title {
+	margin: 0.25em 0 1em;
+	font: 700 1.5em/1.5 'Montserrat', 'OpenSans', Arial, sans-serif;
+	letter-spacing: -0.034em;
+}
+.entry-title a {
+	color: inherit;
+	text-decoration: none;
+}
+.entry-title a:hover {
+	color: #45ac9d;
+}
+.entry-time {
+	color: #45ac9d;
+	font: 600 .82em/1.65 'OpenSans', Arial, sans-serif;
+}
+.category .page-title {
+	font: 700 1.5em/2 'Montserrat', 'OpenSans', Arial, sans-serif;
+	letter-spacing: -0.034em;
+	margin: 0;
+}
+.category .page-title span {
+	color: #45ac9d;
+}
+.entry-summary a {
+	color: #45ac9d;
+	text-decoration: underline;
+	font-weight: 600;
+}
+.entry-summary a:hover {
+	text-decoration: none;
+}
+.wp-caption {
+	display: inline;
+}
+.wp-caption img {
+	margin: 1em 0 0;
+}
+.wp-caption-text {
+	text-align: left;
+	font-style: italic;
+	font-size: .8em;
+	color: #a6a6a6;
+}
+.post-entry .read-more a{
+	font-size: 13px;
+	font-size: .8em;
+	font-family: 'OpenSans', Arial, sans-serif;
+	color: #45ac9d;
+	font-weight: 600;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin-top: 1em;
+}
+.post-entry .read-more span {
+	color: #3b3b3b;
+}
+.post-entry .read-more a:hover {
+	border-bottom: 1px solid #45ac9d;
+}
+.entry-footer .entry-terms {
+	color: #a6a6a6;
+	font-size: .82em;
+}
+.entry-footer {
+	margin-top: 1.5em;
+}
+.entry-footer .entry-terms a {
+	color: #3b3b3b;
+	font-weight: 600;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+.entry-footer .entry-terms a:hover {
+	border-bottom: 1px solid #45ac9d;
+}
+.entry-terms span {
+	font-weight: normal;
+	color: #a6a6a6;
+}
+.entry-footer .entry-terms + .entry-terms:before {
+	content: '/';
+	padding: 0 .625em;
+}
+.main-content .post-entry:last-child {
+	border-bottom: 0;
+}
+/* End BLOG STYLES */
+/* SINGLE POST STYLES */
+.single .post-entry {
+	border-bottom: none;
+}
+.author-name {
+	text-transform: capitalize;
+}
+.comments-area {
+	margin-bottom: 5em;
+	clear: both;
+	overflow: hidden;
+}
+.comments-area .comments-title {
+	border: solid #bfbfbf;
+	border-width: 1px 0;
+	color: #150300;
+	font: 600 .8em/3 'OpenSans', Arial, sans-serif;
+	height: 3em;
+	text-transform: uppercase;
+	margin: 1em 0;
+}
+.comment-list {
+	margin-bottom: 3.125em;
+}
+.comment-list .comment-head {
+	margin: 1.5em 0 .625em;
+}
+.comment-list .comment {
+	font: .8em/2.08 'OpenSans', Arial, sans-serif;
+	border-bottom: 1px solid #BFBFBF;
+	padding-bottom: 1.5em;
+}
+.comment-list .comment .comment-meta {
+	float: right;
+}
+.comment-list .comment a {
+	color: #45ac9d;
+	text-decoration: none;
+}
+.comment-list .comment a:hover {
+	text-decoration: underline;
+}
+.comment-list .comment .comment-author {
+	font-weight: 600;
+	text-transform: capitalize;
+}
+.comments-area .comment-reply-title {
+	color: #45ac9d;
+	font: 700 1.176em/1.75 'Montserrat', 'OpenSans', Arial, sans-serif;
+	text-transform: uppercase;
+	margin: 2em 0 1em;
+}
+.comments-area .comment-reply-title a {
+	color: #45ac9d;
+}
+.comments-area .comment-reply-title a:hover {
+	text-decoration: underline;
+}
+.comments-area .comment-form p {
+	font: .8em/2.08 'OpenSans', Arial, sans-serif;
+	margin: 0 auto 2em;
+}
+.comment-form-author {
+	width: 48%;
+	float: left;
+}
+.comment-form-email {
+	width: 48%;
+	float: right;
+}
+.comment-form-url {
+	display: none;
+}
+.comment-form input {
+	width: 100%;
+	line-height: 3em;
+	text-indent: 1em;
+	border: 1px solid #BFBFBF;
+}
+.comments-area .comment-form p a {
+	color: #45ac9d;
+}
+.comments-area .comment-form p a:hover {
+	text-decoration: underline;
+}
+.comments-area .comment-form label {
+	display: block;
+	font: 600 1em 'OpenSans', Arial, sans-serif;
+	margin: .625em 0;
+}
+.comments-area .comment-form textarea {
+	height: 11.25em;
+	width: 100%;
+	resize: none;
+	font: 1em/1.75 'OpenSans', Arial, sans-serif;
+	padding: .5em 1em;
+	border: 1px solid #BFBFBF;
+}
+.comments-area .comment-form input[type="submit"] {
+	background: #45ac9d;
+	width: 12.875em;
+	height: 3.5em;
+	font: 700 1.25em/2.5 'Montserrat', 'OpenSans', Arial, sans-serif;
+	color: #fff;
+	margin: 1.5em 0;
+	float: right;
+}
+/* End SINGLE POST STYLES */
